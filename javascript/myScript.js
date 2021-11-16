@@ -1,7 +1,7 @@
 const txtName = document.querySelector("#name");
-const btnNotify = document.querySelector("#btn-notify");
-const msgText = document.querySelector(".text");
-const msgTexttwo = document.querySelector(".texttwo")
+const btnNotify = document.querySelector('#btn-notify');
+const msgText = document.querySelector('.text-one');
+const msgTexttwo = document.querySelector('.text-two')
 const mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 
@@ -12,8 +12,8 @@ btnNotify.addEventListener('click', () => {
         txtName.removeAttribute('style')
     
     }else {
-        msgText.classList.add('hide');
-        msgTexttwo.classList.add('hide');
+        msgText.classList.remove('hide');
+        msgTexttwo.classList.remove('hide');
         txtName.setAttribute('style', 'border: 2px solid red;');
     }
 
