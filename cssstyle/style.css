@@ -29,7 +29,8 @@ footer p {
 	text-decoration: none;
 	color: #fff;
 	background: hsl(223, 87%, 63%);
-	border-radius: 30px;	
+	border-radius: 30px;
+	border: none;	
 }
 
 .click:hover {
@@ -138,6 +139,7 @@ input {
 
 	.input {
 		flex-direction: unset;
+		justify-content: center;
 	}
 
 	.image {
